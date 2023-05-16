@@ -17,3 +17,11 @@ apt update
 apt-get install python3.10-tk
 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+yes | python3.10 -m pip uninstall xformers
+
+yes | python3.10 -m pip install xformers
+
+yes | pip3 uninstall torch torchvision torchaudio
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
