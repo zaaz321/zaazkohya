@@ -4,7 +4,7 @@ git clone https://github.com/bmaltais/kohya_ss.git
 
 cd kohya_ss
 
-git checkout v21.5.14
+git checkout v21.1.5
 
 python3 -m venv venv
 
