@@ -4,6 +4,10 @@ git clone https://github.com/bmaltais/kohya_ss.git
 
 cd kohya_ss
 
+git reset --hard ffd6179c5cbdf8a7955e5c5ee2b7b9fc2ab93eb7
+
+cd kohya_ss
+
 python3 -m venv venv
 
 source venv/bin/activate
