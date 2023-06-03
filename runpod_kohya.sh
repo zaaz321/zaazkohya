@@ -4,7 +4,7 @@ git clone https://github.com/bmaltais/kohya_ss.git
 
 cd kohya_ss
 
-git reset --hard 34b65df2030e673ba436e0e82218dc07678a1330
+git checkout v21.5.14
 
 python3 -m venv venv
 
